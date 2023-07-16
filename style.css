@@ -2,6 +2,19 @@
 	height: 60px;
 }
 
+.navbar-brand p {
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+
+nav .navbar-brand {
+	font-family: 'Parisienne', cursive;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #hero {
 	background-image: url(img/hatter.jpg);
 	height: 100vh;
@@ -50,4 +63,54 @@
 	background-size: cover;
 	background-position: 12% bottom;
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oooh Baby', cursive;
+	text-align: center;
 }
+
+#place h2 {
+	font-size: 2.5rem;
+}
+
+#place h3 {
+	font-size: 1.25rem;
+}
+
+#place h4 {
+	font-size: 3rem;
+}
+
+#place2 {
+	height: 100vh;
+	background-image: url(img/ujpest.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oooh Baby', cursive;
+	text-align: center;
+}
+
+#place2 div {
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: rgba(222, 222, 222, .7);
+}
+
+#place2 div img {
+	width: 80%;
+}
+
+
+
+/* 
+font-family: 'Alex Brush', cursive;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Parisienne', cursive;
+ */

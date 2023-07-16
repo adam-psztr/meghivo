@@ -1,0 +1,53 @@
+#navgyuruk {
+	height: 60px;
+}
+
+#hero {
+	background-image: url(img/hatter.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#hero .row {
+	position: relative;
+}
+
+#hero #dateAndNames {
+	background-image: url(img/szivszoveggel.png);
+	position: absolute;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+#goldRing {
+	position: absolute;
+	background-image: url(img/ring.png);
+	height: 100vh;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	animation-name: rotate;
+  animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0%   {
+		transform: rotate(40deg);
+	}
+  100% {
+		transform: rotate(400deg);
+	}
+}
+
+#place {
+	height: 100vh;
+	background-image: url(img/wedding-6486579.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 12% bottom;
+	background-repeat: no-repeat;
+}

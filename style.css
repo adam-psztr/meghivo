@@ -15,6 +15,11 @@ nav .navbar-brand {
 	align-items: center;
 }
 
+nav ul li a {
+	font-size: 1.5rem !important;
+	font-family: 'Caveat', cursive;
+}
+
 #hero {
 	background-image: url(img/hatter.jpg);
 	height: 100vh;
@@ -56,61 +61,92 @@ nav .navbar-brand {
 	}
 }
 
+.placeBlock {
+	font-family: 'Oooh Baby', cursive;
+	text-align: center;
+}
+
 #place {
-	height: 100vh;
+	height: 300vh;
+	position: relative;
+}
+
+.bgN1 {
 	background-image: url(img/wedding-6486579.jpg);
-	background-position: center;
 	background-size: cover;
 	background-position: 12% bottom;
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Oooh Baby', cursive;
-	text-align: center;
-}
-
-#place h2 {
-	font-size: 2.5rem;
-}
-
-#place h3 {
-	font-size: 1.25rem;
-}
-
-#place h4 {
-	font-size: 3rem;
-}
-
-#place2 {
 	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+
+.bgN2 {
 	background-image: url(img/ujpest.jpg);
 	background-position: center;
 	background-size: cover;
-	background-position: center;
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Oooh Baby', cursive;
-	text-align: center;
+	height: 100vh;
+	position: sticky;
+	top: 0;
 }
 
-#place2 div {
-	padding: 10px 15px;
-	border-radius: 5px;
-	background-color: rgba(222, 222, 222, .7);
+.divider {
+	height: 4.5rem;
 }
 
-#place2 div img {
-	width: 80%;
+.dividerLast {
+	height: 20rem;
+}
+
+#place h2 {
+	margin-top: -55vh;
+	margin-bottom: 30vh;
+	font-size: 2.5rem;
+	position: sticky;
+	top: 20vh;
+	z-index: 99;
+}
+
+#place h3 {
+	position: sticky;
+	font-size: 1.25rem;
+	top: 27.5vh;
+	z-index: 99;
+}
+
+#place h4 {
+	position: sticky;
+	font-size: 3rem;
+	top: 31.25vh;
+	z-index: 99;
+}
+
+#place h5 {
+	position: sticky;
+	font-size: 2rem;
+	top: 40.25vh;
+	z-index: 99;
+}
+
+#place h6 {
+	position: sticky;
+	font-size: 2rem;
+	top: 46.25vh;
+	z-index: 99;
+}
+
+.strokeme {
+  color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 
 
 /* 
 font-family: 'Alex Brush', cursive;
+font-family: 'Caveat', cursive;
 font-family: 'Oooh Baby', cursive;
-font-family: 'Sacramento', cursive;
 font-family: 'Parisienne', cursive;
+font-family: 'Sacramento', cursive;
  */

@@ -7,9 +7,9 @@
 	<title>Betti és Ádám</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Oooh+Baby&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat&family=Oooh+Baby&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,33 +31,15 @@
 							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<div class="collapse navbar-collapse" id="navbarScroll">
-								<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-									<li class="nav-item">
-										<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+								<ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+									<li class="nav-item mx-3">
+										<a class="nav-link" href="#szertartas">Szertartás</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item mx-3">
 										<a class="nav-link" href="#">Link</a>
 									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Link
-										</a>
-										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#">Action</a></li>
-											<li><a class="dropdown-item" href="#">Another action</a></li>
-											<li><hr class="dropdown-divider"></li>
-											<li><a class="dropdown-item" href="#">Something else here</a></li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link disabled">Link</a>
-									</li>
 								</ul>
-								<form class="d-flex" role="search">
-									<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-									<button class="btn btn-outline-success" type="submit">Search</button>
-								</form>
 							</div>
 						</div>
 					</nav>
@@ -85,31 +67,29 @@
 		
 	<!-- helyszín -->
 
-	<div class="container-fluid">
+	<div id="szertartas" class="container-fluid placeBlock">
 		<div class="row">
 			<div id="place" class="container-md">
-				<div>
-					<h2>Polgári szertartás</h2>
-					<h3>Budapest IV. kertület</h3>
-					<h4>12:30</h4>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div id="place2" class="container-md">
-				<div>
-					<h2>Újpest Önkormányzata</h2>
-					<h3>1041 Budapest, István út 14.</h3>
-					<h4>Megközelítés közforgalmú közlekedéssel:</h4>
-					<h5>Villamos: 12, 14, Metró: M3</h5>
-					<h6>Gépjárművel:</h6>
-					<img src="img/terkep.png" alt="újpest térkép">
-				</div>
+				<div class="bgN1"></div>
+				<div class="divider"></div>
+				<h2 class="strokeme">Polgári szertartás</h2>
+				<div class="divider"></div>
+				<h3 class="strokeme">Budapest IV. kertület</h3>
+				<div class="divider"></div>
+				<h4 class="strokeme">- 12:30 -</h4>
+				<div class="divider"></div>
+				<h5 class="strokeme">Újpest Önkormányzata</h5>
+				<div class="divider"></div>
+				<h6 class="strokeme">1041 Budapest, István út 14.</h6>
+				<div class="dividerLast"></div>
+				<div class="bgN2"></div>
 			</div>
 		</div>
 	</div>
 		
 	<!-- helyszín vége -->
+
+	<div class="container-fluid"></div>
 		
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">

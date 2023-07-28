@@ -61,13 +61,14 @@ nav ul li a {
 	}
 }
 
-.placeBlock {
+.infoBlock {
 	font-family: 'Oooh Baby', cursive;
 	text-align: center;
+	display: block;
+	position: relative;
 }
 
-#place {
-	height: 300vh;
+.infos {
 	position: relative;
 }
 
@@ -91,56 +92,134 @@ nav ul li a {
 	top: 0;
 }
 
-.divider {
-	height: 4.5rem;
+.bgN3 {
+	background-image: url(img/asztal.jpg);
+	background-size: cover;
+	background-position: 70% center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: sticky;
+	top: 0;
 }
 
-.dividerLast {
+.bgN4 {
+	background-image: url(img/terasz.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+
+.divider {
+	height: 2.75rem;
+}
+
+.dividerLast1 {
 	height: 20rem;
 }
 
-#place h2 {
+.infos h2 {
 	margin-top: -55vh;
-	margin-bottom: 30vh;
 	font-size: 2.5rem;
 	position: sticky;
 	top: 20vh;
 	z-index: 99;
 }
 
-#place h3 {
+.infos h3 {
 	position: sticky;
 	font-size: 1.25rem;
 	top: 27.5vh;
 	z-index: 99;
 }
 
-#place h4 {
+.infos h4 {
 	position: sticky;
 	font-size: 3rem;
 	top: 31.25vh;
 	z-index: 99;
 }
 
-#place h5 {
+.infos h5 {
 	position: sticky;
 	font-size: 2rem;
 	top: 40.25vh;
 	z-index: 99;
+	padding-bottom: 3px;
 }
 
-#place h6 {
+.infos h6 {
 	position: sticky;
 	font-size: 2rem;
 	top: 46.25vh;
 	z-index: 99;
 }
 
-.strokeme {
-  color: #000;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+.infos h6.parking {
+	position: sticky;
+	font-size: 1.5rem;
+	top: 96.25vh;
+	z-index: 99;
+	background-color: rgb(256, 256, 256);
+	padding: 10px;
+	font-family: 'Caveat', cursive;
 }
 
+.infos h6 span {
+	white-space: nowrap;
+}
+
+.strokeme {
+  color: #000;
+  text-shadow: -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff, 1px 1px 1px #fff, 0 0 1px #fff,
+	-2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff, 2px 2px 2px #fff, 0 0 3px #fff;
+}
+
+#menu {
+	background-image: url(img/hatter.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu {
+	background-image: url(img/menu.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90vh;
+	position: sticky;
+	top: 5vh;
+	margin: 1vh 0;
+	padding: 10vh;
+}
+
+#menu .row .container-md .row {
+	position: relative;
+	height: 100vh;
+}
+
+.menu p {
+	text-align: center;
+	color: var(--bs-yellow);
+	font-size: 1.5rem;
+	font-family: 'Caveat', cursive;
+	line-height: 1.5rem;
+}
+
+.idovonal img {
+	width: 100%;
+}
+
+.kepek {
+	padding: 1.5vh;
+}
+
+.kepek img {
+	width: 100%;
+	padding: 5px;
+}
 
 
 /* 

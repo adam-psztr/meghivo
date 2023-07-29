@@ -157,6 +157,11 @@ nav ul li a {
 	z-index: 99;
 }
 
+.infos h6 a {
+	text-decoration: none;
+	color: #000;
+}
+
 .infos h6.parking {
 	position: sticky;
 	font-size: 1.5rem;
